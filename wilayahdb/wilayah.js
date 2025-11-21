@@ -1,7 +1,7 @@
 const fs = require('fs');
 const mysql = require('mysql');
 
-let conf = {host:'localhost',port:3306,user:'pclist',password:'pclist',database:'wilayah_db'}
+let conf = {host:'localhost',port:3306,user:process.env.user,password:process.env.password,database:'wilayah_db'}
 
 //total csv kolom 5
 //index array kolom 4
@@ -63,5 +63,6 @@ function queryproc(query){
      })
     
 }
+
 
 parse()
