@@ -11,9 +11,9 @@ Alat yang saya gunakan
 - Notepad++ dengan plugin CsvLint
 
 Langkah - langkah yang saya terapkan
-- Memisahkan ID yang semula **Dot-separated** menjadi **Comma-separated**
+- Memisahkan ID yang semula **Dot-separated** menjadi **Comma-separated**. 
   Yaitu dengan menggunakan fitur **Excel text to column**
-- Menambahkan double quotes pada setiap value
+- Menambahkan double quotes pada setiap value. 
   Dengan mengedit csv yang telah dipisah id pada notepad++, lalu reformat data menggunakan plugin CsvLint
 
 # Node Js
